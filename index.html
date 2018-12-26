@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <script>
+    function navigate(url){
+      window.location.href=url;
+    }
+  </script>
+  <head>
+    <meta charset="utf-8">
+    <title>Blessing Church</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h2><i class="fas fa-cross"></i><span class="highlight"> Blessing</span> Church</h2>
+        </div>
+        <nav>
+          <ul>
+            <li class="current" style="margin-top: 10px;"><a href="index.html">Home</a></li>
+            <li style="margin-top: 10px;"><a href="about.html">About</a></li>
+            <li style="margin-top: 10px;"><a href="services.html">Services</a></li>
+            <li style="margin-top: 10px;"><a href="gallery.html">Gallery</a></li>
+            <li>
+              <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="Search">
+                <a class="search-btn" href="index.html">
+                <i class="fas fa-search"></i>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1>축복의 교회</h1>
+        <p>515 Cedar Ln Paramus NJ 07652</p>
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box"  onclick="navigate('about.html')">
+          <i class="fab fa-android fa-5x"></i>
+          <h3>교회 소식</h3>
+          <p>Content 1</p>
+        </div>
+        <div class="box" onclick="navigate('services.html')">
+          <i class="fab fa-android fa-5x"></i>
+          <h3>예배 안내</h3>
+          <p>Content 2</p>
+        </div>
+        <div class="box" onclick="navigate('gallery.html')">
+          <i class="fab fa-android fa-5x"></i>
+          <h3>갤러리</h3>
+          <p>Content 3</p>
+        </div>
+        <div class="box" onclick="navigate('about.html')">
+          <i class="fab fa-android fa-5x"></i>
+          <h3>찾아오시는 길</h3>
+          <p>Content 3</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; 2018. All Rights Reserved. Designed by <a href="https://www.linkedin.com/in/yong-bum-kim-75087b163/" target="_blank">Yong Bum Kim</a></p>
+    </footer>
+  </body>
+</html>

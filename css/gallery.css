@@ -1,0 +1,28 @@
+/* gallery */
+.galmain{
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  padding: auto;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #cccccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.tag {
+  padding: 15px;
+  text-align: center;
+  font-family: cursive;
+}

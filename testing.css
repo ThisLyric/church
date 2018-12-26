@@ -1,0 +1,44 @@
+#container {
+  width: 940px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #bcbcbc;
+}
+#header {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #bcbcbc;
+  text-align:center;
+}
+#content {
+  width: 580px;
+  padding: 20px;
+  margin-bottom: 20px;
+  float: left;
+  border: 1px solid #bcbcbc;
+}
+#sidebar {
+  width: 260px;
+  padding: 20px;
+  margin-bottom: 20px;
+  float: right;
+  border: 1px solid #bcbcbc;
+}
+#footer {
+  clear: both;
+  padding: 20px;
+  border: 1px solid #bcbcbc;
+}
+@media ( max-width: 480px ) {
+  #container {
+    width: auto;
+  }
+  #content {
+    float: none;
+    width: auto;
+  }
+  #sidebar {
+    float: none;
+    width: auto;
+  }
+}
