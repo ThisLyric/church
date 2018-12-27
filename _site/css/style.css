@@ -151,6 +151,7 @@ header a:hover{
   padding: 15px;
   margin-left: auto;
   display: inline-block;
+  cursor: pointer;
 }
 
 footer{
