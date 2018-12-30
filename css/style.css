@@ -74,6 +74,9 @@ header nav{
   float: right;
 }
 
+header i {
+  color:rgba(255,0,0,0.7);
+}
 header .highlight, header .current a {
   color: rgba(235,49,54,0.5);
   font-weight: bold;
@@ -86,7 +89,7 @@ header a:hover{
 
 .search-box{
   float: right;
-  background: #2f3640;
+  background: white;
   height:40px;
   border-radius: 40px;
 }
@@ -98,12 +101,12 @@ header a:hover{
   background:white;
 }
 .search-btn{
-  color:#e84118;
+  color: rgba(235,49,54,0.5);
   float:right;
   width:40px;
   height:40px;
   border-radius:50%;
-  background: #2f3640;
+  background: white;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -114,7 +117,7 @@ header a:hover{
   background:none;
   outline:none;
   float:left;
-  color:white;
+  color:black;
   font-size:16px;
   transition: 2s;
   line-height: 40px;
